@@ -70,6 +70,7 @@ def get_pie_chart(entered_site):
                         values='Unnamed: 0',
                         names='class',
                         title='Total Launches for site {}'.format(entered_site))
+    return fig
 
 # TASK 4:
 # Add a callback function for `site-dropdown` and `payload-slider` as inputs, `success-payload-scatter-chart` as output
